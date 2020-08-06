@@ -1,6 +1,6 @@
 # UF-01 - Dice
 
-[gihub page]()
+[gihub page](https://fabianfv.github.io/UF-01-Dice/)
 
 Just a flexbox practice consisting of making a dice.
 
