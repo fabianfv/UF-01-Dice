@@ -1,0 +1,52 @@
+:root {
+  --point-size: 2.5vw;
+  --point-color: black;
+  --face-size: 15vw;
+}
+
+body {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: black;
+}
+
+.face {
+  background-color: white;
+  border-radius: 10%;
+  width: var(--face-size);
+  height: var(--face-size);
+  padding: 2%;
+  display: flex;
+}
+
+.point {
+  border-radius: 50%;
+  background-color: var(--point-color);
+  width: var(--point-size);
+  height: var(--point-size);
+}
+
+.column {
+  flex-basis: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.right {
+  align-items: flex-end;
+}
+
+.middle-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.bottom {
+  justify-content: flex-end;
+}
+
